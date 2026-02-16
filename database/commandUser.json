@@ -1,0 +1,42 @@
+[
+  {
+    "jid": "6287820058498@s.whatsapp.net",
+    "db": [
+      {
+        "nama": "#setwelcome",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "jid": "6281338838631@s.whatsapp.net",
+    "db": [
+      {
+        "nama": "#setwelcome",
+        "count": 1
+      },
+      {
+        "nama": "#mute",
+        "count": 32
+      }
+    ]
+  },
+  {
+    "jid": "6282219352522@s.whatsapp.net",
+    "db": [
+      {
+        "nama": "#mute",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "jid": "62895383098720@s.whatsapp.net",
+    "db": [
+      {
+        "nama": "#mute",
+        "count": 1
+      }
+    ]
+  }
+]
