@@ -79,12 +79,12 @@ const adminp = JSON.parse(fs.readFileSync('./database/adminpanel.json'))
 const hyds = JSON.parse(fs.readFileSync('./database/hyds.json'))
 const antibotPath = './database/antibot.json'
 const antibotSettingsPath = './database/antibot-settings.json'
-const hydros = JSON.parse(fs.readFileSync('./database/mahirus.json'))
+const hydros = JSON.parse(fs.readFileSync('./database/mahiru.json'))
 const ptp = JSON.parse(fs.readFileSync('./database/ptpanel.json'))
 const ownp = JSON.parse(fs.readFileSync('./database/ownerpanel.json'))
 const mahiruverifikasiuser = JSON.parse(fs.readFileSync('./database/user.json'))
 const mahiruVoiceNote = JSON.parse(fs.readFileSync('./data/mahiruMedia/database/xeonvn.json'))
-const mahiruSticker = JSON.parse(fs.readFileSync('./data/mahiruMedia/database/xeonsticker.json'))
+const mahiruticker = JSON.parse(fs.readFileSync('./data/mahiruMedia/database/xeonsticker.json'))
 const Imagemahiru = JSON.parse(fs.readFileSync('./data/mahiruMedia/database/xeonimage.json'))
 const Videomahiru = JSON.parse(fs.readFileSync('./data/mahiruMedia/database/xeonvideo.json'))
 const pler = JSON.parse(fs.readFileSync('./database/idgrup.json').toString())
@@ -438,7 +438,7 @@ mahiru.ev.emit('messages.upsert', msg)
         const jangan = m.isGroup ? pler.includes(m.chat) : false
     	const isPrem = prem.includes(m.sender)
     	const isHyd = hyds.includes(m.sender)
-        const ismahiru = mahirus.includes(m.sender)
+        const ismahiru = mahiru.includes(m.sender)
     	const isReseller = resellerp.includes(m.sender)
     	const isAdminP = adminp.includes(m.sender)
     	const isPT = ptp.includes(m.sender)
@@ -1847,7 +1847,7 @@ let audiobuffy = fs.readFileSync(`./data/assets/audio/${BhosdikaXeon}.mp3`)
 mahiru.sendMessage(m.chat, { audio: audiobuffy, mimetype: 'audio/mp4', ptt: true }, { quoted: m })     
 }
 }
-for (let BhosdikaXeon of mahiruSticker){
+for (let BhosdikaXeon of mahiruticker){
 if (budy === BhosdikaXeon){
 let stickerbuffy = fs.readFileSync(`./data/mahiruMedia/sticker/${BhosdikaXeon}.webp`)
 mahiru.sendMessage(m.chat, { sticker: stickerbuffy }, { quoted: m })
@@ -4554,7 +4554,7 @@ break
 //=========================================\\
 case 'allmenu': {
 mahiru.sendMessage(m.chat, { react: { text: `⏱️`, key: m.key }})
-let mahiruSad = `${allmenu(prefix, hituet)}`
+let mahiruad = `${allmenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -4752,7 +4752,7 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 
@@ -4781,7 +4781,7 @@ renderLargerThumbnail: true
 break
 
 case 'gamemenu': {
-   let mahiruSad = `${gamemenu(prefix, hituet)}`
+   let mahiruad = `${gamemenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -4979,12 +4979,12 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 
 case 'cpanelmenu': {
-   let mahiruSad = `${cpanelmenu(prefix, hituet)}`
+   let mahiruad = `${cpanelmenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -5182,12 +5182,12 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 //=========================================\\
 case 'storemenu': {
-  let mahiruSad = `${storemenu(prefix, hituet)}`
+  let mahiruad = `${storemenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -5385,12 +5385,12 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 //=========================================\\
 case 'quotesmenu': {
-  let mahiruSad = `${quotesmenu(prefix, hituet)}`
+  let mahiruad = `${quotesmenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -5588,12 +5588,12 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 //=========================================\\
 case 'anonymousmenu': {
-  let mahiruSad = `${anonymousmenu(prefix, hituet)}`
+  let mahiruad = `${anonymousmenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -5791,7 +5791,7 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 
@@ -5799,7 +5799,7 @@ break
 //=========================================\\
 
 case 'islamimenu': {
-  let mahiruSad = `${islamimenu(prefix, hituet)}`
+  let mahiruad = `${islamimenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -5997,12 +5997,12 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 
 case 'rpgmenu': {
-  let mahiruSad = `${rpgmenu(prefix, hituet)}`
+  let mahiruad = `${rpgmenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -6200,12 +6200,12 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 
 case 'ownermenu': {
-  let mahiruSad = `${ ownermenu(prefix, hituet)}`
+  let mahiruad = `${ ownermenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -6403,11 +6403,11 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 case 'pushmenu': {
-  let mahiruSad = `${ pushmenu(prefix, hituet)}`
+  let mahiruad = `${ pushmenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -6605,11 +6605,11 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 case 'othermenu': {
-  let mahiruSad = `${othermenu(prefix, hituet)}`
+  let mahiruad = `${othermenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -6807,11 +6807,11 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 case 'downloadmenu': { 
-let mahiruSad = `${downloadmenu(prefix, hituet)}`  
+let mahiruad = `${downloadmenu(prefix, hituet)}`  
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -7009,7 +7009,7 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 case 'confess': case 'confes': case 'menfes': case 'menfess': {
@@ -7101,7 +7101,7 @@ case 'stopmenfess': {
 break;
 
 case 'groupmenu': {
-  let mahiruSad = `${groupmenu(prefix, hituet)}`
+  let mahiruad = `${groupmenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -7299,12 +7299,12 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 
 case 'funmenu': { 
-  let mahiruSad = `${funmenu(prefix, hituet)}`
+  let mahiruad = `${funmenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -7502,11 +7502,11 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 case 'stalkermenu': {
-let mahiruSad = `${stalkermenu(prefix, hituet)}`
+let mahiruad = `${stalkermenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -7704,10 +7704,10 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
-case 'randomphotomenu': {let mahiruSad = `${randomphotomenu(prefix, hituet)}`
+case 'randomphotomenu': {let mahiruad = `${randomphotomenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -7905,11 +7905,11 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 case 'randomvideomenu': {
-  let mahiruSad = `${randomvideomenu(prefix, hituet)}`
+  let mahiruad = `${randomvideomenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -8107,11 +8107,11 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 case 'ephoto360menu': {
-  let mahiruSad = `${ephoto360menu(prefix, hituet)}`
+  let mahiruad = `${ephoto360menu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -8309,11 +8309,11 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 case 'nsfwmenu': {
-  let mahiruSad = `${nsfwmenu(prefix, hituet)}`
+  let mahiruad = `${nsfwmenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -8511,11 +8511,11 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 case 'animemenu': {
-  let mahiruSad = `${animemenu(prefix, hituet)}`
+  let mahiruad = `${animemenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -8713,11 +8713,11 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 case 'primbonmenu': {
-  let mahiruSad = `${primbonmenu(prefix, hituet)}`
+  let mahiruad = `${primbonmenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -8915,11 +8915,11 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 case 'beritamenu': {
-  let mahiruSad = `${beritamenu(prefix, hituet)}`
+  let mahiruad = `${beritamenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -9117,11 +9117,11 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 case 'jashermenu': {
-  let mahiruSad = `${jashermenu(prefix, hituet)}`
+  let mahiruad = `${jashermenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -9319,11 +9319,11 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 case 'sertifikatmenu': {
-  let mahiruSad = `${sertifikatmenu(prefix, hituet)}`
+  let mahiruad = `${sertifikatmenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -9521,11 +9521,11 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 case 'stickermenu': {
-   let mahiruSad = `${stickermenu(prefix, hituet)}`
+   let mahiruad = `${stickermenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -9723,11 +9723,11 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 case 'databasemenu': {
-  let mahiruSad = `${databasemenu(prefix, hituet)}`
+  let mahiruad = `${databasemenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -9925,11 +9925,11 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 case 'aimenu': {
-   let mahiruSad = `${aimenu(prefix, hituet)}`
+   let mahiruad = `${aimenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -10127,11 +10127,11 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 case 'bugmenu': {
-  let mahiruSad = `${bugmenu(prefix, hituet)}`
+  let mahiruad = `${bugmenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -10329,11 +10329,11 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 case 'pyterodactylemenu': {
-  let mahiruSad = `${pyterodactylemenu(prefix, hituet)}`
+  let mahiruad = `${pyterodactylemenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -10531,11 +10531,11 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 case 'digitaloceanmenu': {
-  let mahiruSad = `${digitaloceanmenu(prefix, hituet)}`
+  let mahiruad = `${digitaloceanmenu(prefix, hituet)}`
 const bet = {
   title: "LIST MENU",
   sections: [
@@ -10733,7 +10733,7 @@ const bet = {
     }
   ]
 }
-    listbut2(m.chat, mahiruSad, bet, m)
+    listbut2(m.chat, mahiruad, bet, m)
 }
 break
 case 'sound1':
