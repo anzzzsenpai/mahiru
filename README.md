@@ -1,14 +1,21 @@
 <div align="center">
 
 <img src="https://media1.tenor.com/m/QA2Gf2r5jj0AAAAC/mahiru-shiina-mahiru.gif" width="400" alt="Mahiru Animation"/>
-
+<pre>
+       __  __         _     _              
+      |  \/  |  __ _ | |__ (_) _ __  _   _ 
+      | |\/| | / _` || '_ \| || '__|| | | |
+      | |  | || (_| || | | || || |   | |_| |
+      |_|  |_| \__,_||_| |_||_||_|    \__,_|
+          ~ My Bini ~
+</pre>
 # 🌸 Mahiru Bot 🌸
 
 A sophisticated and efficient bot developed by **AnzzSenpai**.
 
 <p align="center">
-    <img src="https://img.shields.io/github/stars/anzzsenpai/mahiru?style=for-the-badge&logo=github&color=ff69b4" alt="Stars"/>
-    <img src="https://img.shields.io/github/forks/anzzsenpai/mahiru?style=for-the-badge&logo=github&color=ff69b4" alt="Forks"/>
+    <img src="https://img.shields.io/badge/Stars-Dynamic-ff69b4?style=for-the-badge&logo=github" alt="Stars"/>
+    <img src="https://img.shields.io/badge/Forks-Dynamic-ff69b4?style=for-the-badge&logo=github" alt="Forks"/>
 </p>
 
 ---
