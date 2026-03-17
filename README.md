@@ -7,9 +7,9 @@
 A sophisticated and efficient bot developed by **AnzzSenpai**.
 
 <p align="center">
-    <img src="https://img.shields.io/github/stars/anzzsenpai/mahiru-bot?style=for-the-badge&logo=github&color=ff69b4" alt="Stars"/>
-    <img src="https://img.shields.io/github/forks/anzzsenpai/mahiru-bot?style=for-the-badge&logo=github&color=ff69b4" alt="Forks"/>
-    <img src="https://img.shields.io/github/license/anzzsenpai/mahiru-bot?style=for-the-badge&logo=github&color=ff69b4" alt="License"/>
+    <img src="https://img.shields.io/github/stars/anzzsenpai/mahiru?style=for-the-badge&logo=github&color=ff69b4" alt="Stars"/>
+    <img src="https://img.shields.io/github/forks/anzzsenpai/mahiru?style=for-the-badge&logo=github&color=ff69b4" alt="Forks"/>
+    <img src="https://img.shields.io/github/license/anzzsenpai/mahiru?style=for-the-badge&logo=github&color=ff69b4" alt="License"/>
 </p>
 
 ---
@@ -35,5 +35,5 @@ Script ini memerlukan FFmpeg untuk fitur media.
 
 1. **Clone Repository**
    ```bash
-   git clone [https://github.com/anzzsenpai/mahiru-bot.git](https://github.com/anzzsenpai/mahiru.git)
+   git clone [https://github.com/anzzsenpai/mahiru.git](https://github.com/anzzsenpai/mahiru.git)
    cd mahiru
