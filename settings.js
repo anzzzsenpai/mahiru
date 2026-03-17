@@ -63,8 +63,8 @@ global.author = "\n\n\n\n\nDibuat Oleh Asisten mahiru\nNo hape/wa : 628137614898
 global.creator = "6281338838631@s.whatsapp.net"
 //======================== CPANEL FITUR ===========================\\
 global.domain = '' // Isi Domain Lu jangan kasih tanda / di akhir link
-global.apikey = ''// Isi Apikey Plta Lu
-global.capikey = '' // Isi Apikey Pltc Lu
+global.apikey = 'ptla_RiqNf0iCr6s08DLTwkXgWndOhZRJ4VxKRi4oJG4Wtu6' // Isi Apikey Plta Lu
+global.capikey = 'ptlc_dHqgrA1oZZ0n6AA4hiT2uCKGKHpKxU5xjL1bxAJPKDx' // Isi Apikey Pltc Lu
 //=========================================================//
 global.apiDigitalOcean = "-"
 //=========================================================//
@@ -223,7 +223,7 @@ global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutpu
 global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 
-global.keyopenai = "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"
+global.keyopenai = ""
 //documents variants
 global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
 global.doc2 = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
