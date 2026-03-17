@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://media.tenor.com/tS3iL9bB-tMAAAAe/mahiru-shiina-smile.gif" width="350" alt="Mahiru Animation"/>
+<img src="https://media.tenor.com/2X9N_S0-33AAAAAC/mahiru-shiina-the-angel-next-door-spoils-me-rotten.gif" width="350" alt="Mahiru Animation"/>
 
 # 🌸 Mahiru Bot 🌸
 
@@ -16,18 +16,18 @@ A sophisticated and efficient bot developed by **AnzzSenpai**.
 
 ## 📌 Fitur Utama
 * ⚡ **Respon Cepat**: Dibangun dengan efisiensi tinggi.
-* 🎙️ **Pemrosesan Media**: Fitur audio dan video yang ditenagai oleh FFmpeg.
+* 🎙️ **Pemrosesan Media**: Fitur audio dan video ditenagai oleh **FFmpeg**.
 * 🛠️ **Multi-Fungsi**: Berbagai perintah otomatis yang bisa dikustomisasi.
 
 ## 🚀 Prasyarat
 Sebelum menjalankan script ini, pastikan Anda sudah menginstal:
-* [Node.js](https://nodejs.org/) (Versi LST disarankan)
+* [Node.js](https://nodejs.org/) (Versi LTS disarankan)
 * [Git](https://git-scm.com/)
 
 ## ⚙️ Instalasi FFmpeg (Wajib)
 Script ini memerlukan FFmpeg untuk fitur media.
 * **Linux:** `sudo apt install ffmpeg`
-* **Windows:** Unduh di [gyan.dev](https://www.gyan.dev/ffmpeg/builds/) dan tambahkan ke PATH.
+* **Windows:** Unduh di [gyan.dev](https://www.gyan.dev/ffmpeg/builds/) dan tambahkan folder `bin` ke PATH.
 * **macOS:** `brew install ffmpeg`
 
 ## 🛠️ Cara Instalasi Script
