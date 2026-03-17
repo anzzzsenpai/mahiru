@@ -1,0 +1,26 @@
+{
+  "120363406041644338@g.us": {
+    "active": false,
+    "kota": "",
+    "sahurOffset": 40,
+    "private": false,
+    "pesanSahur": "🌙 Waktu Sahur!",
+    "pesanBuka": "🌅 Waktu Berbuka!"
+  },
+  "120363369472648460@g.us": {
+    "active": true,
+    "kota": "jakarta",
+    "sahurOffset": 40,
+    "private": true,
+    "pesanSahur": "🌙 Waktu Sahur!",
+    "pesanBuka": "🌅 Waktu Berbuka!"
+  },
+  "120363419665354675@g.us": {
+    "active": true,
+    "kota": "",
+    "sahurOffset": 40,
+    "private": true,
+    "pesanSahur": "🌙 Waktu Sahur!",
+    "pesanBuka": "🌅 Waktu Berbuka!"
+  }
+}
