@@ -43,3 +43,6 @@ Script ini memerlukan FFmpeg untuk fitur media.
    ```bash
    git clone [https://github.com/anzzsenpai/mahiru.git](https://github.com/anzzsenpai/mahiru.git)
    cd mahiru
+   npm install
+   npm start
+  pairing dan bot pun jalann
