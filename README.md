@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://telegra.ph/file/5a5d0c75a9e701e67b2d2.gif" alt="Mahiru Animation" width="400"/>
+<img src="https://media.tenor.com/2X9N_S0-33AAAAAC/mahiru-shiina-the-angel-next-door-spoils-me-rotten.gif" width="300" />
 
 # 🌸 Mahiru Bot 🌸
 
