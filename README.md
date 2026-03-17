@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://media.tenor.com/2X9N_S0-33AAAAAC/mahiru-shiina-the-angel-next-door-spoils-me-rotten.gif" width="300" />
+<img src="https://media.tenor.com/tS3iL9bB-tMAAAAe/mahiru-shiina-smile.gif" width="350" alt="Mahiru Animation"/>
 
 # 🌸 Mahiru Bot 🌸
 
@@ -9,7 +9,6 @@ A sophisticated and efficient bot developed by **AnzzSenpai**.
 <p align="center">
     <img src="https://img.shields.io/github/stars/anzzsenpai/mahiru?style=for-the-badge&logo=github&color=ff69b4" alt="Stars"/>
     <img src="https://img.shields.io/github/forks/anzzsenpai/mahiru?style=for-the-badge&logo=github&color=ff69b4" alt="Forks"/>
-    <img src="https://img.shields.io/github/license/anzzsenpai/mahiru?style=for-the-badge&logo=github&color=ff69b4" alt="License"/>
 </p>
 
 ---
